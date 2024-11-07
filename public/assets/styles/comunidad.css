@@ -68,7 +68,7 @@
 }
 .comunidad-image {
   position: relative;
-  background-image: url("img/fondo-comunidad.png");
+  background-image: url("public/assets/img/fondo-comunidad.png");
   background-size: cover;
   background-position: center;
   height: 680px;
