@@ -160,3 +160,19 @@
 .social-button:hover {
   opacity: 0.9;
 }
+/*Responsive acceder*/
+@media (max-width: 1260px) {
+  .Login-section .ContainerForm {
+    padding: 30px 15px;
+    width: 90%;
+    height: 95%;
+  }
+  .Login-section .ContainerForm {
+    padding: 30px 20px;
+  }
+}
+@media (max-width: 700px) {
+  .login-button {
+    padding: 10px 5px;
+  }
+}
