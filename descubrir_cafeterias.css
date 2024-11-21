@@ -1,0 +1,341 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+.seccion-descubrir {
+  font-family: Andada Pro;
+  display: flex;
+  height: 100vh;
+}
+.izquierda,
+.cafeterías {
+  margin: 0%;
+}
+.izquierda {
+  height: 100%;
+  width: 30%;
+  background-color: #f8ecd4;
+}
+
+.perfil {
+  display: flex;
+  padding: 12px;
+  margin-bottom: 10%;
+  background-color: #8b4513;
+}
+.perfil h1 {
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.chats {
+  display: flex;
+}
+.chats ul {
+  list-style: none;
+  padding: 5px;
+  flex-direction: column;
+}
+.lista-chats {
+  width: 20%;
+}
+.lista-chats li {
+  display: flex;
+  padding: 25px;
+}
+.lista-chats a {
+  display: flex;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.lista-chats p {
+  display: inline-flex;
+  margin-top: 35px;
+  margin-right: 15px;
+}
+.line-chats {
+  border: 2;
+  height: 3px;
+  width: 127%;
+  background-color: black;
+  margin: 20px 0;
+}
+
+.mensaje-lista li {
+  padding: 16px;
+}
+
+.mensaje-lista {
+  width: 65%;
+  justify-content: left;
+}
+
+.hora-lista {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.hora-lista li {
+  margin-top: 30px;
+  padding-bottom: 74px;
+  margin-left: 200%;
+}
+/*DERECHA*/
+
+.cafetería-izquierda {
+  position: relative;
+  width: 35%;
+  background-color: #ece8e1;
+  padding: 30px;
+}
+
+.imagen-lucio {
+  max-width: 300px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 400px; /* Altura deseada */
+  display: flex;
+  align-items: flex-end; /* Posiciona el texto en la parte inferior */
+  border-radius: 10px; /* Es opcional, para bordes redondeados */
+  margin-top: 56px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.contenido {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+.ubicacion {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.ubicacion img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.ubicacion p {
+  font-size: 14px;
+  color: white;
+}
+.imagen-barletto {
+  max-width: 300px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 400px; /* Altura deseada */
+  display: flex;
+  align-items: flex-end; /* Posiciona el texto en la parte inferior */
+  border-radius: 10px; /* Es opcional, para bordes redondeados */
+  margin-top: 48px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.contenido {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+.ubicacion {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.ubicacion img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.ubicacion p {
+  font-size: 14px;
+  color: white;
+}
+
+.cafetería-derecha {
+  position: relative;
+  width: 35%;
+  background-color: #ece8e1;
+  padding: 10px;
+}
+
+.imagen-cordillera {
+  max-width: 300px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 400px; /* Altura deseada */
+  display: flex;
+  align-items: flex-end; /* Posiciona el texto en la parte inferior */
+  border-radius: 10px; /* Es opcional, para bordes redondeados */
+  margin: 40px 0px 50px 30px;
+}
+.contenido {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+.ubicacion {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.ubicacion img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.ubicacion p {
+  font-size: 14px;
+  color: white;
+}
+.imagen-lapanera {
+  max-width: 300px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 400px; /* Altura deseada */
+  display: flex;
+  align-items: flex-end; /* Posiciona el texto en la parte inferior */
+  border-radius: 10px; /* Es opcional, para bordes redondeados */
+  margin: 40px 0px 50px 30px;
+}
+.contenido {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+.ubicacion {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.ubicacion img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.ubicacion p {
+  font-size: 14px;
+  color: white;
+}
+/*BARRA DE BUSQUEDA*/
+.barra-busqueda {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-busqueda {
+  flex-grow: 1;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  outline: none;
+  margin-right: 10px;
+}
+
+.boton-buscar,
+.boton-filtrar {
+  background-color: #8b4513;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.boton-buscar img,
+.boton-filtrar img {
+  width: 20px;
+  height: 20px;
+}
+
+.boton-buscar:hover,
+.boton-filtrar:hover {
+  background-color: #a05a22;
+}
+.filtros {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.oculto {
+  display: none;
+}
+
+.filtros label {
+  font-size: 14px;
+  color: #333;
+}
+
+.select-ubicacion {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.btn-descubrir {
+  background-color: #f4c113;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  color: #8b4513;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transform: translateX(-50%);
+  width: fit-content;
+  text-align: center;
+  margin-top: 100%;
+}
+.btn-descubrir a {
+  color: #8b4513;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+.btn-descubrir:hover {
+  background-color: #d1a711;
+}
+
