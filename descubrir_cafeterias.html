@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="descubrir_cafeterias.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rosarivo:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <section class="seccion-descubrir">
+      <!--IZQUIERDA-->
+    <div class="izquierda">
+      <div class="perfil">
+      <a href="">
+        <img src="img/foto-perfil.png" alt="Foto de perfil" width="80" height="80"/>
+      </a>
+      <h1>Paulo Alvarez Gutierrez</h1>
+    </div>
+    <div class="chats">
+      <ul class="lista-chats">
+<li> <a href="" ><img src="img/Lucero.png"/> </li>
+  <li> <a href=""><img src="img/marcelo.png"/></a> 
+  </li>
+      <li> <a href=""><img src="img/fabiana.png"/></a> 
+      </li>
+         </ul>
+
+<ul class="mensaje-lista">
+<li>
+<h1> Lucero </h1> 
+<p>Hola</p> 
+<hr class="line-chats" />
+</li>
+<li>
+<h1>Marcelo</h1>
+<p>Oh, en serio?</p> 
+<hr class="line-chats" />
+</li>
+<li>
+<h1>Fabiana</h1>
+<p>Como estas?</p> 
+<hr class="line-chats" />
+</li>
+</ul>
+
+<ul class="hora-lista">
+  <li>
+    <p>12:56</p> 
+   
+  </li>
+  <li>
+    
+    <p>10:39</p> 
+   
+  </li>
+  <li>
+   
+    <p>08:27</p> 
+    
+  </li>
+  </ul>
+
+  <button type="button" class="btn-descubrir">
+    <a href="match.html"> Descubrir</a>
+  </button>
+
+</div>
+    </div>
+
+    </div>
+    <div class="cafetería-izquierda">
+      <h2>CAFETERÍAS </h2>
+      
+      <div class="contenedor-imagenes">
+        <div class="imagen-lucio" style="background-image: url('img/lucio.png');">
+          <div class="contenido">
+            <h1>LUCIO CAFFÉ</h1>
+            <div class="ubicacion">
+              <img src="img/Location.png" alt="Ubicación" />
+              <p>San Miguel</p>
+            </div>
+          </div>
+        </div>
+       
+        <div class="imagen-barletto" style="background-image: url('img/barletto.png');">
+          <div class="contenido">
+            <h1>BARLETTO</h1>
+            <div class="ubicacion">
+              <img src="img/Location.png" alt="Ubicación" />
+              <p>San Miguel</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--DERECHA-->
+    <div class="cafetería-derecha">
+
+      <div class="barra-busqueda">
+        <input
+          type="text"
+          class="input-busqueda"
+          id="input-busqueda"
+          placeholder="Buscar cafeterías..."
+        />
+        <button  id="boton-buscar"  class="boton-buscar">
+          <img src="img/busqueda.png" alt="Buscar" />
+        </button>
+        <button  id="boton-filtrar" class="boton-filtrar">
+          <img src="img/Filtrar.png" alt="Filtrar" />
+        </button>
+      </div>
+
+  
+
+      <div id="filtros" class="filtros oculto">
+        <label for="ubicacion">Filtrar por ubicación:</label>
+        <select id="ubicacion" class="select-ubicacion">
+          <option value="">Todas</option>
+          <option value="San Miguel">San Miguel</option>
+          <option value="Pueblo Libre">Pueblo Libre</option>
+        </select>
+      </div>
+
+      <div class="contenedor-imagenes">
+        <div class="imagen-cordillera" style="background-image: url('img/cordillera.png');">
+          <div class="contenido">
+            <h1>CORDILLERA 27</h1>
+            <div class="ubicacion">
+              <img src="img/Location.png" alt="Ubicación" />
+              <p>Pueblo Libre</p>
+            </div>
+          </div>
+        </div>
+       
+        <div class="imagen-lapanera" style="background-image: url('img/lapanera.png');">
+          <div class="contenido">
+            <h1>La panera</h1>
+            <div class="ubicacion">
+              <img src="img/Location.png" alt="Ubicación" />
+              <p>Pueblo Libre</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+  </body>
+ <script src="busqueda-filtrado.js"> </script>
+</html>
+
